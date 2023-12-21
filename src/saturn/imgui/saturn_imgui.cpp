@@ -883,6 +883,11 @@ void saturn_imgui_update() {
                     if (autoChroma && !autoChromaObjects) gObjectPool[i].header.gfx.node.flags |= GRAPH_RENDER_INVISIBLE;
                 }
             }
+
+            UNSTABLE
+            if (ImGui::MenuItem("(!) Extras")) {
+
+            }
             ImGui::EndMainMenuBar();
         }
 
