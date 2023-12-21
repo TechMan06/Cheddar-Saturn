@@ -886,7 +886,7 @@ void saturn_imgui_update() {
 
             UNSTABLE
             if (ImGui::MenuItem("(!) Extras")) {
-
+                ImGui::EndMenu();
             }
             ImGui::EndMainMenuBar();
         }
